@@ -351,12 +351,47 @@ p.comment-alert {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 800px) {
+@media (min-width: 912px) {
 
   .featurette-heading {
     font-size: 50px;
   }
+}
 
+@media (max-width: 772px) {
+  #upper-nav{
+    right: 0px;
+    top:100%;
+    width:100%;
+    margin:0;
+  }
+
+  .container{
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 772px) {
+  #upper-nav{
+    right: 10px;
+  }
+}
+
+
+
+@media (max-width: 772px) {
+  #lower-nav {
+    border-top: 0px;
+  }
+}
+
+@media (width : 772px) {
+  #upper-nav{
+    right: -10px;
+  }
+}
+
+@media (min-width: 768px){
   #signup-btn, #signup-admin-btn {
     right:5%;
     width: max-content;
@@ -366,21 +401,6 @@ p.comment-alert {
     right: 12%;
   }
 }
-
-@media (max-width: 992px) {
-  #upper-nav{
-    right: 30px;
-    top:35px;
-  }
-}
-
-
-@media (max-width: 600px) {
-  #lower-nav {
-    border-top: 0px;
-  }
-}
-
 
 
 
