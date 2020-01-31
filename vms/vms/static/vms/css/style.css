@@ -356,6 +356,10 @@ p.comment-alert {
   .featurette-heading {
     font-size: 50px;
   }
+
+  #upper-nav{
+    right: 130px;
+  }
 }
 
 @media (max-width: 772px) {
@@ -371,7 +375,7 @@ p.comment-alert {
   }
 }
 
-@media (min-width: 772px) {
+@media (min-width: 772px) and (max-width:911px){
   #upper-nav{
     right: 10px;
   }
@@ -399,6 +403,7 @@ p.comment-alert {
 
   #signup-btn {
     right: 12%;
+    margin-left:15px;
   }
 }
 
